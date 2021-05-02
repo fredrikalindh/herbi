@@ -1,0 +1,76 @@
+$light: #37966F;
+$main: #356859;
+$dark: #FD5523;
+$contrastText: #FFFBE6;
+
+* {
+  // font-family: "Epilogue", sans-serif;
+  font-family: 'Bodoni Moda', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // color: $main;
+  // background-color: #FDF7E8;
+}
+
+html {
+  background-color: #FFFBE6;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  padding: 50px 0px 70px 0px;
+  margin: 60px auto 0px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.recipes {
+  // min-width: 90%;
+  width: 90%!important;
+  max-width: 1000px;
+  // padding: 30px;
+  // display: flex;
+  // justify-content: flex-start;
+  // align-items: center;
+  // flex-wrap: wrap;
+  // flex: 1 1 300px;
+}
+
+
+// :root {
+//   --primary: #7E9C34;
+// }
+
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+svg {
+  fill: $main;
+}
+
+
+h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: $dark;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  padding: 20px 0px;
+}
+
+p, li, span, a {
+  font-family: Lekton, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
